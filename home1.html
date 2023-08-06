@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champneys Luxury Health Spa</title>
+    <!-- bs link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main >
+    <section
+    class="main-nav bg-light"
+    style="position: sticky !important; top: 0; z-index: 99999 !important"
+  >
+    <div
+      class="header-nav-1 d-flex justify-content-between align-items-center w-100 px-5 py-1"
+    >
+      <div class="menu-btn-box">
+        <a
+          href="#"
+          class="py-3 px-5 fs-3 text-decoration-none"
+          id="menu-btn"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+        >
+          <i class="fa-solid fa-bars fs-3"></i>
+          <span class="ms-3 d-none d-md-inline menu-link fs-3"
+            >Main Menu</span
+          >
+        </a>
+      </div>
+
+      <div class="logo-img-container text-center mx-3">
+        <a href="./home1.html">
+
+            <img
+              src="./assets/Champneys_LogoV2.svg"
+              id="main-logo"
+              class="img-fluid m-auto"
+              alt="champneys-logo"
+              />
+        </a>
+      </div>
+
+      <button class="p-2 p-sm-3 px-4 px-sm-5 fs-4 fs-sm-2">BOOK NOW</button>
+    </div>
+    <hr />
+
+    <!-- sidebar -->
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+            Champneys Luxury Resorts and Spa
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="mt-5">
+          <li class="mt-3">
+            <h3
+              href="#"
+              class="fs-4 mb-5 fw-bold text-uppercase"
+              style="color: #b6a269 !important"
+            >
+              Main Menu
+            </h3>
+          </li>
+          <li class="mt-3">
+            <a href="./home1.html" class="lnk fs-4 fw-bold text-uppercase"
+              >Welcome to Champneys</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Spa & Hotels</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase">City Spa</a>
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Health Club</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Online Shop</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="./contact.html" class="lnk fs-4 fw-bold text-uppercase"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <ul class="mt-5">
+          <li class="mt-3">
+            <a href="./about.html" class="lnk fs-4 fw-bold text-uppercase"
+              >About Champneys</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Spa breaks</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase">Spa days</a>
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Spa evenings</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Spa Treatments</a
+            >
+          </li>
+          <li class="mt-3">
+            <a href="#" class="lnk fs-4 fw-bold text-uppercase"
+              >Retreats & Boot Camps</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-md mt-3">
+      <ul class="navbar-nav m-md-auto mt-3 d-sm-none d-none d-md-flex">
+        <li class="nav-list mt-3">
+            <div class="dropdown">
+              <a
+                class="btn btn-light px-5 py-3 fs-5 fw-bold dropdown-toggle w-100"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+              <ul
+                class="dropdown-menu w-100"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li>
+                  <a class="dropdown-item" href="./home1.html">Home 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./home2.html">Home 2</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        <li class="nav-list">
+          <a href="#" class="nav-link fs-4">Resorts & Hotels</a>
+        </li>
+        <li class="nav-list">
+          <a href="#" class="nav-link fs-4">Offers</a>
+        </li>
+        <li class="nav-list">
+          <a href="./about.html" class="nav-link fs-4 fs-4">About Champneys</a>
+        </li>
+        <li class="nav-list">
+          <a href="#" class="nav-link fs-4 fs-4">Treatment</a>
+        </li>
+        <li class="nav-list">
+          <a href="./contact.html" class="nav-link fs-4">Contact</a>
+        </li>
+        <li class="nav-list">
+          <a href="#" class="nav-link fs-4">City Spa</a>
+        </li>
+        <li class="nav-list">
+          <a href="#" class="nav-link fs-4">Club Membership</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar end -->
+  </section>
+    <header class="header">
+    
+           <!-- carousel -->
+          
+               <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade"  data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./assets/1600x900px-4.jpeg" class=" object-fit-cover w-100 " alt="slider img">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assets/1600px-X-900px-(9).jpeg" class="d-block w-100" alt="slider img">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assets/1600px-X-900px-(11).jpeg" class="d-block w-100" alt="slider img">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./assets/1600px-X-900px-(3).jpeg" class="d-block w-100" alt="slider img">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+      
+      <!-- carousel ends -->
+    </header>
+
+    <!-- special offer section starts -->
+    <section class="special-offer-box d-flex flex-column flex-md-row justify-content-between  p-5">
+        <div class="offer-box-item-1  w-md-25 w-100 w-sm-100 p-5">
+            <h1>It's a Champneys Summer</h1>
+            <p class="mt-5 fw-bold">SPECIAL OFFERS</p>
+        </div>
+
+        <div class="offer-box-item-2  w-md-75 d-flex flex-column flex-md-row gap-3">
+           <section>
+               <div class="offer-box-content px-5 py-3 mt-5"> 
+                   <h2 class="fs-1 fw-bold">Pamper Parties</h2>
+                   <p class="fs-3 lh-md mt-4"> 
+                       We believe when it comes to pamper days, the more the merrier. Book a group day or stay with us and for every two fully paid guests bring one along for free!&nbsp;
+                       <strong>
+                           <a href="#" class="text-decoration-none fs-3 text-dark">Relax and reconnect...</a>
+                       </strong>                               
+                   </p>
+               </div>
+               <div class="offer-box-content px-5 py-3 mt-5">
+                   <h2 class="fs-1 fw-bold">Half-Day Delights</h2>
+                   <p class="fs-3 lh-md mt-4">
+                       Indulge in either an afternoon or morning of pure spa bliss and feel good food at Mottram Hall.&nbsp;
+                       <strong>
+                           <a href="#" class="text-decoration-none fs-3 text-dark" target="" title="Invigorate or unwind...">Invigorate or unwind...</a>
+                       </strong></p>
+               </div>
+           </section> 
+
+           <section>
+
+               <div class="offer-box-content px-5 py-3 mt-5">
+                   <h2 class="fs-1 fw-bold">Tea For Two</h2>
+                   <p class="fs-3 lh-md mt-4">
+                       Treat yourself to a scrumptious afternoon tea within the picturesque surroundings of Champneys Tring. Best enjoyed in twos...&nbsp;
+                       <strong >
+                           <a href="#" class="text-decoration-none fs-3 text-dark">
+                               Go on and indulge...
+                           </a>
+                       </strong> 
+                           </p>
+               </div>
+               <div class="offer-box-content px-5 py-3 mt-5">
+                   <h2 class="fs-1 fw-bold">World Spa Award</h2>
+                   <p class="fs-3 lh-md mt-4">
+                       We are delighted to announce that we have been nominated for categories in the World Spa Awards!&nbsp;
+                       <strong >
+                           <a href="#" class="text-decoration-none fs-3 text-dark">
+                               Cast your vote...
+                           </a>
+                       </strong> 
+                           </p>
+               </div>
+           </section>
+        </div>
+      
+    </section>
+    <!-- special offer end -->
+
+    <!-- book online section -->
+    <section class="container m-auto mt-5 p-5 text-center" style="background: #f5f5f5;">
+        <div>
+            <h1 class="fw-bold" style="letter-spacing: 1.24px;">Book Direct Online</h1>
+            <p class="fs-3">Please note, at this time, phone enquiries are subject to long wait times.</p>
+            
+        </div>
+        
+        <div class="mt-5">
+            <a href="#" class="text-dark fw-bold " style="letter-spacing: 1.24px;">You'll always find the best prices online</a>
+        </div>
+
+        <div class="d-none d-sm-block">
+
+            <div class="row mt-5 mb-3 justify-content-center">
+                <div class="col-sm-5 mt-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-sliders fs-2 me-4 text-left" style="color: #b6a269;"></i>
+                        Day or Stay
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item w-100" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-sm-5 mt-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-location-dot fs-2 me-4" style="color: #b6a269;"></i>
+                       Location
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="row mb-3 justify-content-center">
+                <div class="col-sm-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user fs-2 me-4" style="color: #b6a269;"></i>
+                       No. of Adults
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-calendar-days fs-2 me-4" style="color: #b6a269;"></i>
+                        Arrival Date
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+            <div class="row mb-3 justify-content-center">
+                <div class="col-sm-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-moon fs-2 me-4" style="color: #b6a269;"></i>
+                        4 Nights
+                        </button>
+                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="dropdown">
+                        <button class="btn btn-light px-5 py-3 fs-3 dropdown-toggle w-100 text-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            
+                        Check Availibility
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- special offer section ends -->
+
+    <!-- welcome champneys section -->
+    <section style="margin-top:50px;" >
+        <div class="welcome-champ-content m-auto mb-5" style="width: 90%;">
+            <p class="fw-bold fs-5 lh-sm" style="color: #b6a269; letter-spacing: 1.24px; ">Four spa resorts, two spa hotels & more</p>
+            <h1 class="fw-bold fs-1">Welcome to Champneys</h1>
+        </div>
+
+        <!-- welcome champneys carousel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade m-auto" style="width: 90% !important;"  data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 3"></button>
+              </div>
+              <!-- carousel indicators -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./assets/1600x900px-4.jpeg" class=" object-fit-cover w-100 " alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(9).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(11).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(3).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(10).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(5).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/bridal-suite-900x600.jpg" class="d-block w-100" alt="slider img">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./assets/1600px-X-900px-(7).jpeg" class="d-block w-100" alt="slider img">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="container w-75" style="margin-top: 60px !important;">
+            <div class="row mb-4">
+                <h2 class="fs-1 lh-sm">At Champneys, wellness is our specialty. A spa pioneer since 1925, our four elegant countryside health spa resorts have helped guests rest and reenergise for generations. More recently, we have ventured into a decadent new era with two luxury spa hotels; where a little bit of what you fancy is not just on offer, it’s actively encouraged</h2>
+            </div>
+            <div class="row mb-4">
+                <p class="fs-3">Known for creating robed and relaxed moments of Champneys calm, we combine ancient practices with ultra modern methods. From our city spa sanctuaries, through our iconic resorts to our luxury hotels, every Champneys is home to innovative world-class treatments in sleek treatment rooms and elegant mani-pedi lounges</p>
+            </div>
+            <div class="row ">
+                <p class="fs-3">Best experienced on a spa day, spa break or wellbeing retreat, you'll also love our cosy relaxation areas, showstopping swimming pools, state-of-the-art fitness studios and high-tech thermal experiences, while dining healthily on nutritionist-approved menus.</p>
+            </div>
+          </div>
+    </section>
+    <!-- welcome champneys work done -->
+
+    <!-- hotels & resorts -->
+    <section class="container-fluid py-5 mt-5" style="background-color: #f5f5f5;">
+        <h1 class="fw-bold fs-1 mb-5 m-auto" style="width: 90%;">Spa Resorts & Hotels</h1>
+        <div class="row m-auto" style="width: 90%;">
+            
+            <div class="col-sm-6 mt-5">
+                <div class="mb-5" style="height: 300px; object-fit: cover;">
+                    <img src="./assets//900x600px-31.jpeg" style="height: 100%;" class="img-fluid object-fit-cover w-100" alt="hotels-resort-img">
+                </div>
+
+                <h2 class="fs-3 fw-bold mb-4">Spa resorts for the ultimate robed experience</h2>
+
+                <p class="fs-4">
+                    The original spa influencer, our iconic health spa resorts create robed and relaxed moments of Champneys calm. Home to innovative world class treatments, sleek treatment rooms, cosy relaxation areas, showstopping swimming pools, high-tech thermal experiences, elegant mani-pedi lounges, nutritionist approved menus, detox retreats and much more; our traditional spa resorts will nourish you from the inside out and bring you back to your best.             
+                </p>
+
+                <a href="#" class="lnk fw-bold mt-5 fs-4">Spa Resorts</a>
+            </div>
+            <div class="col-sm-6 mt-5">
+                <div class="mb-5" style="height: 300px; object-fit: cover;">
+                    <img src="./assets/bridal-suite-900x600.jpg" class="img-fluid w-100 object-fit-cover" style="height: 100%;" alt="bridal-suite-img">
+                </div>
+                
+                <h2 class="fs-3 fw-bold mb-4">Luxury hotels that go beyond spa</h2>
+                
+                <p class="fs-4"> 
+                    Grand and glamorous, our picturesque hotels are fairy tale wedding venues and perfectly suited to special occasions. Featuring elegant interiors and gourmet dining, why not celebrate in style with traditional afternoon tea, bespoke cocktails and private dining. Ideal for date nights, staycations and everything in-between, you’ll also find a beautiful Champneys spa nestled away in its own quarters for tranquil moments of calm.             
+                </p>
+                
+                <a href="#" class="lnk fw-bold mt-5 fs-4">Luxury hotels</a>
+            </div>
+        </div>
+    </section>
+    <!-- hotel & resorts ends -->
+
+    <!-- new at champneys -->
+    <section class="m-auto mt-5" style="width: 95% !important; ">
+        <h1 class="fs-1 fw-bold">New at Champneys</h1>
+        <div class="row">
+            <div class=" col-sm-6  col-md-3">
+                <div class="w-100  mt-5"> 
+                    <img src="./assets/900x600px-45.jpeg" class="img-fluid w-100" alt="newt at champneys img">
+                </div>
+
+                <h2 class="fw-bold mt-5" >Tring's Classic Afternoon Tea</h2>
+
+                <p class="fs-3 mt-5">
+                    Treat yourself to a scrumptious and sparkling afternoon tea within the picturesque surroundings of Champneys Tring. Best enjoyed in twos...
+                </p>
+
+                <a href="#" class="lnk fw-bold mt-5 fs-4 ">Find out more</a>
+            </div>
+
+            <div class=" col-sm-6  col-md-3">
+                <div class="w-100  mt-5"> 
+                    <img src="./assets/calm-900x600v2.jpg" class="img-fluid w-100" alt="newt at champneys img">
+                </div>
+
+                <h2 class="fw-bold mt-5" >New Lief weight loss programme</h2>
+
+                <p class="fs-3 mt-5">
+              
+                    Kick-start your weight loss journey with our New Lief programme at Champneys Tring, designed to help you to learn ways to work successfully towards longer term weight management.
+                                    
+                </p>
+
+                <a href="#" class="lnk fw-bold mt-5 fs-4 ">Find out more</a>
+            </div>
+            <div class=" col-sm-6  col-md-3">
+                <div class="w-100  mt-5"> 
+                    <img src="./assets/paddle-tennis.jpg" class="img-fluid w-100" alt="newt at champneys img">
+                </div>
+
+                <h2 class="fw-bold mt-5" >Padel </h2>
+
+                <p class="fs-3 mt-5">
+                    
+                    Complimentary Padel Intro sessions available with the Wellbeing Team. To make your own court booking please contact the Wellbeing & Fitness Desk (£). Rackets & balls included.
+                                    
+                </p>
+
+                <a href="#" class="lnk fw-bold mt-5 fs-4 ">Find out more</a>
+            </div>
+            <div class=" col-sm-6  col-md-3">
+                <div class="w-100  mt-5"> 
+                    <img src="./assets/900x600px-70.jpeg" class="img-fluid w-100" alt="newt at champneys img">
+                </div>
+
+                <h2 class="fw-bold mt-5" >Winners at the Good Spa Guide Awards!</h2>
+
+                <p class="fs-3 mt-5">
+                   
+                    We are proud to announce that Champneys Tring has won the Best Spa for Wellness at the Good Spa Guide Awards 2023!
+                                    
+                </p>
+
+                <a href="#" class="lnk fw-bold mt-5 fs-4 ">See what all the fuss is about</a>
+            </div>
+        </div>
+    </section>
+    <!-- new at champneys ends -->
+
+    <!-- more from champneys -->
+    <section class="container-fluid mt-5 py-5 px-5" style="background: #f5f5f5;">
+        <div>
+            <p class="fs-4 fw-bold" style="color: #b6a269;">More Than Just a Spa</p>
+            <h1 class="fs-1 fw-bold" style="width: 35%;">More from Champneys</h1>
+        </div>
+
+        <div class="more-champney-content container m-auto " style="margin-top: 100px !important;">
+            <h2 class="m-auto mt-5  fs-2 lh-sm">
+                Our resorts and hotels offer some of the most cutting edge facilities, not only for spa and wellbeing, but also for the wider wellness experience.
+            </h2>
+
+            <p class=" m-auto mt-4 fs-3 pb-5">
+                
+                Set in beautiful grounds, they also provide gorgeous settings for fairytale nuptials and all sorts of events, from afternoon tea with a loved one, to meetings and conferences with favourite colleagues, and so much more.
+            </p>
+        </div>
+    </section>
+    <!-- more from champneys  end-->
+
+    <!-- gifts section home -->
+    <section class="m-auto " style="width: 95% !important; margin-top: 80px !important;">
+        <div class="row " style="margin-top: 50px !important;">
+            <div class=" col-6 col-sm-7 ">
+                <h1 class=" fs-2 fs-sm-1 fw-bold mb-3 ">Gifts cards & experiences</h1>
+                <div class="w-100 mb-5 overflow-hidden" >
+                    <a href="#">
+
+                        <img src="./assets/blue-gift-card-900-x-600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                    </a>
+                </div>
+
+                <a  href="#" class=" lnk fw-bold fs-4 word-spacing-sm">Give the gifts of champneys</a>
+            </div>
+            <div class="col-6 col-sm-5 ">
+                <h1 class="fw-bold fs-1">Shop Champneys</h1>
+
+                <div class="w-100 mb-5 overflow-hidden"
+                 
+                 >
+                 <a href="#">
+
+                     <img src="./assets/calm-900x600v2.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                 </a>
+                </div>
+
+                <a href="#" class="lnk fw-bold fs-4 word-spacing-sm ">From out spa to yours</a>
+
+            </div>
+        </div>
+
+        <div class="row mt-5" style="margin-top: 120px !important;">
+            <div class=" col-6 col-sm-5 ">
+                <h1 class=" fs-2 fs-sm-1 fw-bold mb-3 ">Wellbeing retreats</h1>
+                <div class="w-100 mb-5 overflow-hidden" >
+                    <a href="#">
+
+                        <img src="./assets/yoga-2-900-x-600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                    </a>
+                </div>
+
+                <a  href="#" class="lnk fw-bold fs-4 word-spacing-sm">Rest & Reset</a>
+            </div>
+            <div class="col-6 col-sm-7 ">
+                <h1 class="fw-bold fs-1">Spa Treatments</h1>
+
+                <div class="w-100 mb-5 overflow-hidden"
+                 
+                 >
+                 <a href="#">
+
+                     <img src="./assets/ritual-treatmentsv2.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                 </a>
+                </div>
+
+                <a href="#" class="lnk fw-bold fs-4 word-spacing-sm ">Get Your Zen On</a>
+
+            </div>
+        </div>
+
+        <div class="row mt-5" style="margin-top: 120px !important;">
+            <div class=" col-6 col-sm-7 ">
+                <h1 class=" fs-2 fs-sm-1 fw-bold mb-3 ">City Spa</h1>
+                <div class="w-100 mb-5 overflow-hidden" >
+                    <a href="#">
+
+                        <img src="./assets/cityspas_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                    </a>
+                </div>
+
+                <a  href="#" class=" lnk fw-bold fs-4 word-spacing-sm">
+                    A high street haven
+                </a>
+            </div>
+            <div class="col-6 col-sm-5 ">
+                <h1 class="fw-bold fs-2 fs-sm-1">Health Club membership</h1>
+
+                <div class="w-100 mb-5 overflow-hidden"
+                 
+                 >
+                 <a href="#">
+
+                     <img src="./assets/tringclub1_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                 </a>
+                </div>
+
+                <a href="#" class="lnk fw-bold fs-4 word-spacing-sm ">
+                    Join the club
+                </a>
+
+            </div>
+        </div>
+
+        <div class="row mt-5" style="margin-top: 120px !important;">
+            <div class=" col-6 col-sm-5 ">
+                <h1 class=" fs-2 fs-sm-1 fw-bold mb-3 ">Weddings</h1>
+                <div class="w-100 mb-5 overflow-hidden" >
+                    <a href="#">
+
+                        <img src="./assets/eastwellweddings_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                    </a>
+                </div>
+
+                <a  href="#" class="lnk fw-bold fs-4 word-spacing-sm">
+                    Tie the knot in style
+                </a>
+            </div>
+            <div class="col-6 col-sm-7 ">
+                <h1 class="fw-bold fs-1">Meetings & events</h1>
+
+                <div class="w-100 mb-5 overflow-hidden"
+                 
+                 >
+                 <a href="#">
+
+                     <img src="./assets/meetings_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                 </a>
+                </div>
+
+                <a href="#" class="lnk fw-bold fs-4 word-spacing-sm ">
+                    Venues like no other
+                </a>
+
+            </div>
+        </div>
+
+        <div class="row mt-5" style="margin-top: 120px !important;">
+            <div class=" col-6 col-sm-7 ">
+                <h1 class=" fs-2 fs-sm-1 fw-bold mb-3 ">Afternoon Tea</h1>
+                <div class="w-100 mb-5 overflow-hidden" >
+                    <a href="#">
+
+                        <img src="./assets/mottramdining_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                    </a>
+                </div>
+
+                <a  href="#" class=" lnk fw-bold fs-4 word-spacing-sm">
+                   
+        Time for tea
+    
+                </a>
+            </div>
+            <div class="col-6 col-sm-5 ">
+                <h1 class="fw-bold fs-2 fs-sm-1">Championship Golf Course</h1>
+
+                <div class="w-100 mb-5 overflow-hidden"
+                 
+                 >
+                 <a href="#">
+
+                     <img src="./assets/mottramgolf_900x600.jpg" class="gifts-img img-fluid w-100 object-fit-cover " alt="gift-cards">
+                 </a>
+                </div>
+
+                <a href="#" class="lnk fw-bold fs-4 word-spacing-sm ">
+                   Tea Time
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- gifts section home ends-->
+
+    <!-- booked section -->
+    <section class="m-auto" style="width: 95% !important; margin-top: 80px !important; background-color: #205A68;">
+        <div class="text-center p-5">
+            <h1 class="fs-1 fw-bold text-light mt-5">Already Booked?</h1>
+            <p class="text-light lh-sm fs-3 mt-4 w-75 m-auto">                      
+                It’s not long now until our fluffy robe will be draped across your shoulders. All that’s left to do is add on treatments, book your free pool slot and reserve your exercise classes. Let us know your preferences today, as we can’t guarantee there will be space on arrival.
+            </p>
+
+            <button  type="button" class=" mt-5 px-5 py-3 fs-3 fw-bold btn bg-none cursor-pointer" style="border: 2px solid white;color: white !important;">Plan Your Visit</button>
+        </div>
+    </section>
+    <!-- booked section end -->
+
+    <!-- moments -->
+    <section class="m-auto py-5" style="width: 90% !important; margin-top: 80px !important;">
+        <h1 class="fs-1 fw-bold w-25">Champneys Moments</h1>
+
+        <div class="row my-5">
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-10.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-4.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-1.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-3.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-7.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image5.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image7.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+            <div class="col-6 mt-5 col-sm-3">
+                <div>
+                    <img src="./assets/image-9.jpg" class="img-fluid" alt="champney-moment-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <!-- moments -->
+
+    <!-- quick links -->
+    <section class="m-auto" style="width: 95% !important; margin-top: 80px !important;">
+        <div class="row">
+            <div class="col-sm-3 mt-5">
+                <h3 class="fs-3 fw-bold text-left text-uppercase" style="color: #b6a269 !important;">Quick Links</h3>
+                <ul class="text-left w-100"> 
+                    <li class="mt-5">
+                        <a href="./contact.html" class="lnk fw-bold fs-4 text-uppercase">Contact</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase ">Newsletter Sign up</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Competetion</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">FAQS</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="./about.html" class="lnk fw-bold fs-4 text-uppercase">About Champneys</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Careers</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Luxury Yachts</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Privacy Notice</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Terms & Conditions</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Gender Pay Gap</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fw-bold fs-4 text-uppercase">Modern Salvary</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 mt-5">
+                <h3 class="fs-3 fw-bold text-left text-uppercase" style="color: #b6a269 !important;">Locations</h3>
+
+                <ul>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Tring Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Springs Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Forest Mere Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Henlow Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Eastwell Manor Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Champneys Mottram Hall Spa & Hotel</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">City Spas</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 mt-5">
+                <h3 class="fs-3 fw-bold text-left text-uppercase" style="color: #b6a269 !important;">Treatments</h3>
+
+                <ul>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Massage Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Body Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Face Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Hand & Foot Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Restorative Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Holistic Theraples</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Beauty Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Men's Treatments</a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="lnk fs-4">Aesthetic Treatments</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-3 mt-5">
+                <h3 class="fs-3 fw-bold text-left text-uppercase" style="color: #b6a269 !important;">Newsletter</h3>
+
+                <h1 class="fs-2 lh-sm fw-bold mt-5">Be the first to find out about our latest news &amp; offers, sign up for our newsletter</h1>
+
+                <button class="p-3 px-5 mt-5">
+                    SIGN UP
+                  </button>
+                </div>
+        </div>    
+    </section>
+    <!-- quick link end -->
+
+
+    <!-- footer -->
+    <section class="footer p-5" style="margin-top: 80px !important; background:#f8f6f0;">
+        <div class="row align-items-center">
+
+            <div class="col-6 ">
+    
+                <i class="fa-brands fa-square-facebook mx-3 fs-1" style="color: #b6a269 !important;"></i>
+                <i class="fa-brands fa-instagram mx-3 fs-1" style="color: #b6a269 !important;"></i>
+                <i class="fa-brands fa-twitter mx-3 fs-1" style="color: #b6a269 !important; "></i>
+            </div>
+    
+            <div class="col-6 text-end">
+                <p style="color: #b6a269;">
+                    © Champneys 2023 All Rights Reserved
+                </p>
+                <p style="color: #b6a269;">Digital Experience by nucleus</p>
+            </div>
+        </div>
+    </section>
+</main>
+    
+    
+<!-- fontawesome script -->
+<script src="https://kit.fontawesome.com/99705de324.js" crossorigin="anonymous"></script>
+    <!-- bs script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <!--  custom js file -->
+    <script src="main.js"></script>
+</body>
+</html>

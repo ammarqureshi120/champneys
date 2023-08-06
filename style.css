@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    outline: none;
+    text-decoration: none !important;
+    font-family: var(--opan-sans);
+    color: black !important;
+    font-size: 1.2rem;
+}
+:root{
+    --opan-sans:'Open Sans', sans-serif;
+    --playfair-display:'Playfair Display', serif;
+    --brown: #b6a269;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+button {
+    background: var(--brown);
+    border: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    background: #977f44;
+}
+
+h1, h2 {
+    font-family: var(--playfair-display);
+}
+
+
+.lnk:hover {
+    text-decoration: underline !important;
+}
+
+/* header styling */
+.logo-img-container{
+    width: 250px !important;
+    text-align: right;
+}
+
+
+.menu-btn-box a {
+    border: 1px solid black;  
+    line-height: 16px;  
+    letter-spacing: 1.4px;
+    font-weight: 600;
+}
+
+.menu-btn-box a:hover > .menu-link {
+    
+    border-bottom: 2px solid #b6a269;
+  }
+
+  .menu-btn-box a:active > .menu-link {
+    color: #b6a269; 
+  }
+  .menu-btn-box a:active > i {
+    color: #b6a269;
+  }
+
+.header-nav-1 button {
+    background: var(--brown);
+    border: none;
+    font-weight: 600;
+    /* font-size: 1.4rem; */
+} 
+
+.header-nav-1 button:hover{
+    background: #977f44;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600 !important;
+    margin:  15px  !important;
+}
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #b6a269;
+}
+
+/* header end */
+
+.offer-box-item-1  {
+    background: url("./assets/sun-illistration.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.offer-box-item-1 h1 {
+    font-size: 3rem !important;
+    font-weight: 700;
+
+}
+
+.offer-box-content {
+    border-left: 1px solid black;
+}
+
+.offer-box-content p {
+    width: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+    .more-champney-content{
+        width: 98% !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .more-champney-content{
+        width: 50% !important;
+    }
+}
+
+/* gift section */
+.gifts-img:hover {
+    transition:all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.offcanvas .offcanvas-body a:hover {
+    color: var(--brown) !important;
+}   
+
+/* style.css */
+.main-nav {
+  background-color: #fff !important;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.video-header {
+  position: relative;
+}
+
+#header-video {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -1;
+}
+
+
